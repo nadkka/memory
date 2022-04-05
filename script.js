@@ -5,7 +5,9 @@ var nrKarty;
 function odkryj(nr){
 var obraz= "url("+cards[nr]+")";
 
-$("#c" + nr).css("background-image", obraz );
+
+document.getElementById('c'+ nr).style.backgroundImage=obraz;
+//$("#c" + nr).css("background-image", obraz );
 
 if(oneVisible==false){
     //pierwsza karta
