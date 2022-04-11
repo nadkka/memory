@@ -7,7 +7,6 @@ var obraz= "url("+cards[nr]+")";
 
 
 document.getElementById('c'+ nr).style.backgroundImage=obraz;
-//$("#c" + nr).css("background-image", obraz );
 
 if(oneVisible==false){
     //pierwsza karta
