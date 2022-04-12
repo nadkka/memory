@@ -38,7 +38,7 @@ function odkryj(nr){
             oneVisible=false;
             licznik++;
         
-            $(".score").html("LICZNIK KLIKNIĘĆ: "+ licznik)
+            $(".score").html("LICZNIK RUCHÓW: "+ licznik)
         }
         
     }
