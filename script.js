@@ -51,7 +51,7 @@ function para(nr1, nr2){
         $("#c"+ nr2).css('opacity','0');
         koniec--;
         if(koniec==0){
-            $("#board").html("<h1> WYGRAŁEŚ W: <br>" + licznik + " ruchach <br></h1> <h2> OTO SŁODKI KOTEK DLA CIEBIE! </h2>");
+            $("#board").html("<h1> WYGRAŁEŚ W <br>" + licznik + " ruchach <br></h1> <h2> OTO SŁODKI KOTEK DLA CIEBIE! </h2>");
             $("#board").css("background", 'url(slodkikotek.jpg)', 'no-repeat');
             $("#board").css("background-size", '600px');
         }
