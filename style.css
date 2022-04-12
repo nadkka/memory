@@ -14,10 +14,15 @@ h1{
 
 #board{
     width: 600px;
+    height: 600px;
     text-align: center;
     margin: auto;
     border: 10px solid black;
     padding: 2px;
+    text-shadow: -3px 0 black, 0 3px black,
+      3px 0 black, 0 -3px black;
+    color: white;
+
 }
 
 .card{
@@ -28,13 +33,20 @@ h1{
     display: inline-block;
     margin: 2px;
     border: 2px solid black;
+    transition: linear 0.1s;
+    
+
+
 }
 .card:hover{
     border: 2px solid #8DAB7F;
-
 }
 
 .score{
     font-size: larger;
-    margin-top: 10px;
+    margin-top: 1px;
+    font-weight: bold;
+    color:#8DAB7F ;
+    text-shadow: -3px 0 #1E2019, 0 3px #1E2019,
+      3px 0 #1E2019, 0 -3px #1E2019;
 }
